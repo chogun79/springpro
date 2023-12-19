@@ -60,7 +60,7 @@ public class BoardController {
 	}
 	
 	@GetMapping("/boardContent.do")
-	public String boardContent(int idx, Model model) { // ?idx=6  @RequestParam int idx의 @RequestParam은 삭제해도 상관없다.
+	public String boardContent(int idx, Model model) { // @RequestParam int idx의 @RequestParam은 삭제해도 상관없다.
 		Board vo=mapper.boardContent(idx);
 		// 조회수 증가
 		mapper.boardCount(idx);
