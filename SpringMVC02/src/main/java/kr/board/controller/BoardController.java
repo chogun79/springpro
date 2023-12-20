@@ -61,13 +61,13 @@ public class BoardController {
 //		boardMapper.boardUpdate(vo);
 //	}
 //	
-//	@RequestMapping("boardContent.do")
+//	@RequestMapping("/boardContent.do")
 //	public @ResponseBody Board boardContent(int idx) {
 //		Board vo = boardMapper.boardContent(idx);
 //		return vo; // vo -> JSON
 //	}
 //	
-//	@RequestMapping("boardCount.do")
+//	@RequestMapping("/boardCount.do")
 //	public @ResponseBody Board boardCount(int idx) {
 //		boardMapper.boardCount(idx);
 //		Board vo = boardMapper.boardContent(idx);
