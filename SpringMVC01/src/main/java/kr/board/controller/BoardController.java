@@ -16,7 +16,17 @@ import kr.board.mapper.BoardMapper;
 
 @Controller
 public class BoardController {
-
+	/*
+	 * ****    SpringMVC01 커리큘럼
+	 * FrontController(DispatcherServlet), Controller(POJO)
+	 * HandlerMapping, ViewResolver
+	 * @Controller, @RequestMapping, @Autowired, @Mapper
+	 * MyBatis(Mapper interfacd, Mapper file, @Annotation)
+	 * @ModelAttribute, Model, JSTL, EL
+	 * XML Based configuration
+	 * Board example
+	*/
+	
 	@Autowired
 	private BoardMapper mapper;
 	
