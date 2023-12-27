@@ -173,8 +173,8 @@
     		 //REST 전송방식(GET/POST/PUT/DELET/...)형태
     		 url : "board/update",  		 
     		 type : "put",
-     		 contentType:'application/json;charset=utf-8', //JSON타입으로 넘기겠다.
-     		 data : JSON.stringify({"idx":idx,"title":title,"content":content}),//여러개 보낼때는JSON형태로 변경    		 
+     		 contentType:'application/json;charset=utf-8', //REST API "put"type의 JSON타입으로 넘기겠다.
+     		 data : JSON.stringify({"idx":idx,"title":title,"content":content}),//REST API "put"type 여러개 보낼때는JSON형태로 변경    		 
 //     		 url : "boardUpdate.do",//"board/update",
 //    		 type : "post",    		 
 //    		 data : {"idx":idx,"title":title,"content":content},//JSON.stringify({"idx":idx,"title":title,"content":content}),
