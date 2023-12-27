@@ -19,7 +19,6 @@
      //게시판 리스트
 /*      function loadList(){
     	// 서버와 통신 : 게시판 리스트 가져오기
-    	alert("111111");
     	$.ajax({
     		//REST 전송방식(GET/POST/PUT/DELET/...)형태
     		url :  "board/all",
@@ -79,16 +78,16 @@
     	 listHtml+="</table>";
     	 $("#view").html(listHtml);
     	 
-    	 $("#view").css("display","block");  // 감추고
-      	 $("#wfrom").css("display","none");// 보이고    	 
+    	 $("#view").css("display","block");  // 보이고
+      	 $("#wfrom").css("display","none");// 감추고  	 
      }
      function goForm(){
     	$("#view").css("display","none");  // 감추고
     	$("#wfrom").css("display","block");// 보이고
      }
      function goList(){
-     	$("#view").css("display","block");  // 감추고
-     	$("#wfrom").css("display","none");// 보이고
+     	$("#view").css("display","block");  // 보이고
+     	$("#wfrom").css("display","none");// 감추고
       }
      function goInsert(){
     	 //var title=$("#title").val();

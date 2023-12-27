@@ -1,4 +1,4 @@
-create table myboard(
+create table myboard1(
 idx int not null auto_increment, 
 title varchar(100) not null, 
 content varchar(2000) not null, 
@@ -8,11 +8,11 @@ count int default 0,
 primary key(idx) 
 );
 
-insert into myboard(title,content,writer) 
+insert into myboard1(title,content,writer) 
 values('게시판 연습','게시판 연습','관리자'); 
-insert into myboard(title,content,writer) 
+insert into myboard1(title,content,writer) 
 values('게시판 연습','게시판 연습','박매일'); 
-insert into myboard(title,content,writer) 
+insert into myboard1(title,content,writer) 
 values('게시판 연습','게시판 연습','선생님');
 
-select * from myboard order by idx desc;
+select * from myboard1 order by idx desc;
